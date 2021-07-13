@@ -1,5 +1,6 @@
 # Visit https://goreleaser.com for documentation on how to customize this
 # behavior.
+project_name: terraform-provider-oktafork
 before:
   hooks:
     # this is just an example and not a requirement for provider building/publishing
@@ -51,7 +52,7 @@ release:
   # Explicit set the repo to release from. Default is origin.
   github:
     owner: gavinbunney
-    name: terraform-provider-okta
+    name: terraform-provider-oktafork
   # Visit your project's GitHub Releases page to publish this release.
   draft: false
 changelog:
